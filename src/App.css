@@ -1,0 +1,41 @@
+.finance-app-wrapper {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #333;
+}
+
+.finance-app-wrapper h1 {
+  letter-spacing: -0.5px;
+}
+
+.finance-app-wrapper .alert {
+  border: none;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.finance-app-wrapper .list-group-item {
+  transition: all 0.2s ease;
+}
+
+.finance-app-wrapper .list-group-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08) !important;
+}
+
+.finance-app-wrapper .btn-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  transition: all 0.2s ease;
+}
+
+.finance-app-wrapper .btn-primary:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.finance-app-wrapper .badge-primary {
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  font-weight: 600;
+  border: 1px solid #bfdbfe;
+}
